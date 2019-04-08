@@ -294,6 +294,6 @@ class Server(object):
 
 
 if __name__ == "__main__":
-    svr = Server("127.0.0.1", 8899)
+    svr = Server("127.0.0.1", 8080)
     svr.start()
 

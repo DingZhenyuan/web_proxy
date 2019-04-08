@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/WebProxy.py" line="94" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/WebProxy.py" line="246" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e65e9ecc-cc56-4199-83ef-51bee001fdb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e65e9ecc-cc56-4199-83ef-51bee001fdb6" name="Default Changelist" comment="加入一些实现不同功能的区块.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebProxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_test/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_test/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_test/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_test/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,25 +18,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_test/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8400">
+              <caret line="422" column="34" selection-start-line="422" selection-start-column="34" selection-end-line="422" selection-end-column="34" />
+              <folding>
+                <element signature="e#15#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebProxy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="825">
-              <caret line="425" selection-start-line="425" selection-end-line="425" />
+              <caret line="626" column="15" selection-start-line="626" selection-start-column="15" selection-end-line="626" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_test/final2.py">
+        <entry file="file://$PROJECT_DIR$/web_test/test1.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_test/final.py">
+        <entry file="file://$PROJECT_DIR$/web_test/example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="30" lean-forward="true" selection-end-line="425" />
+            <state relative-caret-position="70">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,13 +65,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/web_test/test2.py" />
+        <option value="$PROJECT_DIR$/web_test/example.py" />
         <option value="$PROJECT_DIR$/WebProxy.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="27" />
-    <option name="width" value="960" />
+    <option name="width" value="970" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -74,8 +93,7 @@
             </path>
             <path>
               <item name="web_proxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="web_test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -109,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.example">
     <configuration name="WebProxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="web_proxy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,8 +149,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web_proxy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_test/example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web_proxy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_test/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.example" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.WebProxy" />
       </list>
     </recent_temporary>
@@ -162,20 +224,34 @@
       <option name="project" value="LOCAL" />
       <updated>1554565291232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add https">
+      <created>1554641713766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554641713766</updated>
+    </task>
+    <task id="LOCAL-00004" summary="加入一些实现不同功能的区块.">
+      <created>1554643364157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554643364157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="960" height="1053" extended-state="4" />
+    <frame x="0" y="27" width="970" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22732124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1626188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3576881" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37949836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -191,7 +267,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add a README." />
     <MESSAGE value="multi thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="multi thread" />
+    <MESSAGE value="add https" />
+    <MESSAGE value="加入一些实现不同功能的区块." />
+    <option name="LAST_COMMIT_MESSAGE" value="加入一些实现不同功能的区块." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -204,20 +282,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_test/final2.py">
+    <entry file="file://$PROJECT_DIR$/web_test/test4.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_test/final.py">
+    <entry file="file:///usr/lib/python3.6/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="30" lean-forward="true" selection-end-line="425" />
+        <state relative-caret-position="100">
+          <caret line="845" selection-start-line="845" selection-end-line="845" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_test/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8400">
+          <caret line="422" column="34" selection-start-line="422" selection-start-column="34" selection-end-line="422" selection-end-column="34" />
+          <folding>
+            <element signature="e#15#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_test/test1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_test/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebProxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
-          <caret line="425" selection-start-line="425" selection-end-line="425" />
+          <caret line="626" column="15" selection-start-line="626" selection-start-column="15" selection-end-line="626" selection-end-column="15" />
         </state>
       </provider>
     </entry>
