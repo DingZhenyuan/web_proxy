@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/WebProxy.py" line="246" mnemonic="5" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e65e9ecc-cc56-4199-83ef-51bee001fdb6" name="Default Changelist" comment="" />
+    <list default="true" id="e65e9ecc-cc56-4199-83ef-51bee001fdb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,51 +13,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_test/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8400">
-              <caret line="422" column="34" selection-start-line="422" selection-start-column="34" selection-end-line="422" selection-end-column="34" />
-              <folding>
-                <element signature="e#15#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebProxy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="626" column="15" selection-start-line="626" selection-start-column="15" selection-end-line="626" selection-end-column="15" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <first_editor relative-caret-position="400">
+                <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_test/test1.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_test/example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2600">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +57,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +72,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,13 +225,28 @@
       <option name="project" value="LOCAL" />
       <updated>1554735186647</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="优化HTTP缓存,加入GUI界面显示Redis数据库">
+      <created>1554775412860</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554775412860</updated>
+    </task>
+    <task id="LOCAL-00008" summary="优化GUI界面,加入刷新显示Redis数据库,清除数据库所有信息的功能.">
+      <created>1554775666843</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554775666843</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08118081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08118081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,7 +257,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.50817883" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.50816107" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -291,7 +272,9 @@
     <MESSAGE value="加入一些实现不同功能的区块." />
     <MESSAGE value="加入经过curl测试可靠的缓存机制,加入生存时间设定,加入页面缓存功等功能." />
     <MESSAGE value="更新readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
+    <MESSAGE value="优化HTTP缓存,加入GUI界面显示Redis数据库" />
+    <MESSAGE value="优化GUI界面,加入刷新显示Redis数据库,清除数据库所有信息的功能." />
+    <option name="LAST_COMMIT_MESSAGE" value="优化GUI界面,加入刷新显示Redis数据库,清除数据库所有信息的功能." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web_test/test4.py">
@@ -314,6 +297,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12440">
+          <caret line="626" column="15" selection-start-line="626" selection-start-column="15" selection-end-line="626" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web_test/test1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -327,18 +317,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebProxy.py">
+    <entry file="file://$PROJECT_DIR$/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="626" column="15" selection-start-line="626" selection-start-column="15" selection-end-line="626" selection-end-column="15" />
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
-            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <first_editor relative-caret-position="400">
+            <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
